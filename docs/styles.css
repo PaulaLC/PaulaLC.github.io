@@ -1,0 +1,239 @@
+/* css styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+body {
+  color: #000 !important;
+  font-weight: 250;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+section.level2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    opacity: 100;
+}
+
+h2 {
+  font-size: 2.5rem;
+  border: 0;
+  margin-top: 5px;
+}
+
+h3 {
+  border: 0;
+  margin-top: 5px;
+}
+
+h4 {
+  font-size: 1.1rem;
+  margin-top: 0px;
+}
+
+h4.contact {
+  padding-right: 450px;
+}
+
+h6 {
+  font-size: 0.8rem;
+}
+
+.img-center {
+  padding-top: 100px;
+}
+
+.quarto-listing {
+  padding-bottom: 0;
+}
+
+main.content>section:first-of-type>h2:first-child, main.content>section:first-of-type>.h2:first-child {
+  margin-top: 50px;
+}
+
+button {
+  border-radius: 0;
+}
+
+::selection {
+  background: #333;
+  color: #eee;
+}
+
+.main-header p {
+  font-size: 1.2em;
+}
+
+.main-header {
+  text-align: left;
+  padding-left: 250px !important;
+  padding-right: 450px !important;
+  justify-content: left;
+  position: relative;
+  min-height: 35rem;
+  padding: 10rem 0;
+  background: url("img/paulalc.jpg");
+  background-position-x: 100%;
+  background-position-y: 60%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+  width: 100%;
+}
+
+@media (max-width: 991.98px){
+.main-header {
+  padding-left: 55px !important;
+  padding-right: 250px !important;
+  background-position-y: 10%;
+  min-height: 5rem;
+  padding: 2rem 0 5rem 0;
+}
+
+.grid {
+  display: block;
+}
+
+.img-center {
+  padding-top: 0px;
+}
+
+.img-hide {
+  display:none;
+}
+
+}
+
+.quote h2 {
+  font-weight: 150;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+a, a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+p:has(> .btn-contact) {
+  margin-top: 25px;
+}
+
+a.btn-contact {
+  font-size: 0.9rem;
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  border: solid 1px;
+  border-color: #000;
+  padding: 10px 15px 10px 15px;
+  border-radius: 0px;
+}
+
+a:hover.btn-contact  {
+  color: #000;
+  background: #fff;
+  text-decoration: none;
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+  color: #000;
+}
+
+div.quarto-about-solana .about-entity .about-link {
+  font-size: 1.1rem;
+  color: #000;
+  text-decoration: none;
+  border: 0px;
+  padding: 7px 3px 7px 3px;
+}
+
+div.quarto-about-solana .about-entity .about-link:hover {
+  color: #000;
+}
+
+@media (max-width: 991.98px){
+  div.quarto-about-solana .about-entity .about-links {
+    flex-direction: row;
+    row-gap: 1em;
+    width: 100%;
+    padding-bottom: 1.5em;
+    display: block;
+  }
+}
+
+.navbar {
+  background-color: #fff;
+  color: #000 !important;
+  font-size:1rem;
+}
+
+.navbar-brand {
+  color: #000;
+}
+
+.navbar-nav .nav-link, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #000;
+}
+
+/*
+section .level4 {
+  padding-left: 150px;
+}
+
+@media (max-width: 991.98px){
+  
+  section .level4 {
+      padding-left: 0px;
+  }
+
+}
+
+*/
+
+h5 {
+  font-weight: 250;
+  font-size: 18px;
+}
+
+.nav-footer .nav-footer-center {
+  font-size: 1em;
+}
+
+.nav-footer a {
+  color: #fff;
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #000;
+}
+
+#open_preferences_center {
+  color: #191919;
+}
+
+
+div.quarto-post {
+  border-bottom: 0px;
+}
+
+div.quarto-post .metadata, div.quarto-post .thumbnail {
+  display: none;
+}
+
+h3.listing-title {
+  font-size: 1.1rem;
+}
